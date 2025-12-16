@@ -51,7 +51,7 @@ img {
 	height: 50px;
 	width: 50px;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 767px) {
 	body {
 		background-color: azure;
 	}
@@ -59,4 +59,5 @@ img {
 		width: 100%;
 		background-color: red;
 }
+
 
