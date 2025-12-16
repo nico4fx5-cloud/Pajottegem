@@ -1,0 +1,58 @@
+header {
+	height: auto;
+	width: 100%;
+	font-family: "Science Gothic", sans-serif;
+}
+
+h1 {
+	height: 100px;
+	width: 100%;
+	background-image: url(afbeelding/woestijn1.jpg);
+	text-align: center;
+}
+.tekst {
+	display: center;
+	padding: 10px;
+	height: auto;
+	width: 400px;
+}
+
+.grid {
+	margin: 8px;
+	display: grid;
+	grid-template-columns: 2fr 9fr;
+	gap: 4px;
+	text-align: center;
+}
+
+.grid > div {
+	padding: 8px;
+	border: 1px solid blue;
+}
+.item-1 {
+	background-color: burlywood;
+}
+.item-2 {
+	background-color: chocolate;
+}
+body {
+	padding: 4px;
+	background-color: darkgrey;
+	margin: 2px;
+}
+footer {
+	background-color: blue;
+	height: 16px;
+	width: 100%;
+}
+img {
+	float: right;
+	margin-right: 5px;
+	height: 50px;
+	width: 50px;
+}
+@media only screen and (min-width: 600px) {
+	body {
+		background-color: azure;
+	}
+}
