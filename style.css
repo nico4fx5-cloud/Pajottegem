@@ -55,4 +55,8 @@ img {
 	body {
 		background-color: azure;
 	}
+	footer{
+		width: 100%;
+		background-color: red;
 }
+
